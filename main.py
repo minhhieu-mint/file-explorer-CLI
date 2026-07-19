@@ -76,7 +76,7 @@ while True:
         pause()
     elif choice == "7":
         while True:
-            filename = pause("Enter a file: ")
+            filename = input("Enter a file: ")
 
             if show_file_information(current_folder, filename):
                 pause()
